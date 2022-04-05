@@ -1,14 +1,18 @@
-# Template for Python Exercises
-This example project is written in Python, and tested with pytest.
+# Unit 3 Section 1 Exercise 2  
+Modify the maximum function so that it will find the maximum value in a list.  
+  
+## List:  
+72, 90, 23, 22, 81, 12, 49, 71, 68, 29,  
+8, 52, 25, 25, 85, 8, 54, 90, 68, 85,  
+45, 45, 30, 68, 2, 27, 40, 93, 88, 89,  
+73, 71, 84, 99, 7, 33, 15, 13, 8, 43,  
+39, 65, 26, 81, 19, 67, 59, 59, 66, 94,  
+6, 66, 37, 23, 14, 99, 60, 12, 46, 81,  
+28, 77, 90, 21, 96, 91, 7, 84, 99, 56,  
+77, 1, 39, 20, 1, 90, 94, 10, 61, 76,  
+79, 67, 77, 5, 97, 32, 58, 31, 85, 95,  
+87, 36, 69, 77, 72, 90, 74, 13, 0, 78  
+  
+## Return Value  
+99  
 
-### The assignment
-The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
-
-### Setup command
-`sudo -H pip3 install pytest`
-
-### Run command
-`pytest`
-
-### Notes
-- pip's install path is not included in the PATH var by default, so without installing via `sudo -H`, pytest would be unaccessible.
